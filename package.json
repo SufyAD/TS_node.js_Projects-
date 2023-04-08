@@ -1,0 +1,29 @@
+{
+  "name": "calc",
+  "version": "1.0.0",
+  "description": "This is my first TS project for CLI Calculator ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "index.js",
+  "author": "made by Sufyan Ahmed",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.1",
+    "@types/cli-table": "^0.3.1",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.14.2",
+    "@types/prettier": "^2.7.2"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "cli-table": "^0.3.11",
+    "inquirer": "^9.1.4",
+    "nanospinner": "^1.1.0",
+    "prettier": "^2.8.4"
+  }
+}
