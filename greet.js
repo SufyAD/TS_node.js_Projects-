@@ -32,7 +32,7 @@ const sleep = () => {
 };
 const welcome = async () => {
     console.clear;
-    let rainbowTitle = chalkAnimation.neon('\n***Developed by Sufyan Ahmed***');
+    let rainbowTitle = chalkAnimation.rainbow('\n***Developed by Sufyan Ahmed***');
     await sleep(); //using await for the sake that operation is performed after this!
     rainbowTitle.stop();
     console.log(chalk.redBright('Lets Start Calculation'));
